@@ -139,25 +139,6 @@ João Santos, 34, joao.santos@email.com
 Marina Souza, 41, marina.souza@email.com
 ```
 
----
 
-## ▶️ Como Executar
 
-1. Crie um arquivo `pessoas.csv` no diretório do projeto com o conteúdo acima.
-2. Compile todos os arquivos Java:
-   ```bash
-   javac *.java
-   ```
-3. Execute a classe de teste:
-   ```bash
-   java TestePessoaAdapter
-   ```
-
----
-
-## 🧠 Padrão de Projeto Utilizado: **Adapter**
-
-O **Adapter Pattern** é usado para converter a interface de um sistema legado (`arquivo CSV`) em uma interface esperada pelo sistema novo (`RepositorioDePessoas`), promovendo **reutilização de código** e **baixo acoplamento**.
-
----
 
