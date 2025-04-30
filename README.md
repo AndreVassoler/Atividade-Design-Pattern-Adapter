@@ -1,3 +1,6 @@
+Alunos: André Fragalli Vassoler - 22012716-2
+        Felipe Cesar Tomazoti de Souza - 22019977-2
+
 # Projeto: Adapter Pattern com Arquivo CSV
 
 Este projeto demonstra como aplicar o padrão de projeto **Adapter** para adaptar um sistema legado que armazena dados em arquivos `.csv` a um sistema novo baseado em objetos Java.
