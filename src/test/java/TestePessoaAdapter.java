@@ -6,8 +6,7 @@ import java.util.List;
 
 public class TestePessoaAdapter {
     public static void main(String[] args) {
-        String caminhoCsv = "C:\\Users\\Unicesumar\\IdeaProjects\\atividade01\\pessoas.csv"; // Certifique-se de que esse arquivo exista no diretório do projeto
-
+        String caminhoCsv = "C:\\Users\\Unicesumar\\IdeaProjects\\atividade01\\pessoas.csv";
         RepositorioDePessoas repositorio = new PessoaCsvAdapter(caminhoCsv);
 
         List<Pessoa> pessoas = repositorio.listarPessoas();
