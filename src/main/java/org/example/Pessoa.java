@@ -11,7 +11,7 @@ public class Pessoa {
         this.email = email;
     }
 
-    // Getters e Setters
+  
     public String getNome() {
         return nome;
     }
