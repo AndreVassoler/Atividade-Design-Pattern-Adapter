@@ -22,7 +22,7 @@ public class PessoaCsvAdapter implements RepositorioDePessoas {
 
             while ((linha = br.readLine()) != null) {
                 if (primeiraLinha) {
-                    primeiraLinha = false; // Ignora cabeçalho
+                    primeiraLinha = false; 
                     continue;
                 }
 
