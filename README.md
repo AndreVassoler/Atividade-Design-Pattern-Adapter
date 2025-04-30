@@ -115,7 +115,7 @@ import java.util.List;
 
 public class TestePessoaAdapter {
     public static void main(String[] args) {
-        String caminhoCsv = "pessoas.csv"; // Certifique-se de que este arquivo exista
+        String caminhoCsv = "pessoas.csv"; 
 
         RepositorioDePessoas repositorio = new PessoaCsvAdapter(caminhoCsv);
         List<Pessoa> pessoas = repositorio.listarPessoas();
@@ -161,13 +161,3 @@ O **Adapter Pattern** é usado para converter a interface de um sistema legado (
 
 ---
 
-## ✅ Benefícios
-
-- Reutilização de dados legados
-- Flexibilidade para futuras implementações da interface
-- Separação entre lógica de leitura e lógica de uso
-- Adesão a boas práticas de desenvolvimento orientado a objetos
-
----
-
-**Desenvolvido como atividade prática sobre Design Patterns.**
